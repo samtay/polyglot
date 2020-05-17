@@ -11,8 +11,3 @@ def is_unique(s):
         if c in seen: return False
         seen[c] = True
     return True
-
-
-if __name__ == "__main__":
-    import doctest
-    doctest.testmod(verbose=True)

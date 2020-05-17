@@ -1,7 +1,6 @@
 # python
 
-For now the tooling is quite bare in this directory. To add a solution, simply
-add a `chapter_n/exercise_m.py` file that will run doctests when executed, e.g.
+To add a solution, add a `chapter_n/exercise_m.py` file with doctests, e.g.
 
 ```python
 def solve(input):
@@ -16,10 +15,7 @@ def solve(input):
     """
     solution = []
     return solution
-
-if __name__ == "__main__":
-    import doctest
-    doctest.testmod(verbose=True)
 ```
 
-and run `./test` to check it.
+and run `./test chapter_n/exercise_m.py` to test it (or no arguments to test
+them all).
