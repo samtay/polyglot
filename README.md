@@ -3,6 +3,9 @@
 A collection of interview-esque programming challenges implemented in a variety
 of languages.
 
+**TODO** Add a testing script in this directory with `sos` to watch each
+language subdirectory and run the appropriate test for that project.
+
 ### Crack the Coding Interview
 
 In each of the subdirectories, there is an executable `test` that will
