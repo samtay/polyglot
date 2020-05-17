@@ -1,0 +1,35 @@
+name:                polyglot
+version:             0.1.0.0
+github:              "samtay/polyglot"
+license:             BSD3
+author:              "Sam Tay"
+maintainer:          "sam.chong.tay@gmail.com"
+copyright:           "2020 Sam Tay"
+
+extra-source-files:
+- README.md
+
+synopsis:            Coding Challenges
+category:            Learning
+description:         Please see the README on GitHub at <https://github.com/samtay/polyglot#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- unordered-containers
+
+library:
+  source-dirs: src
+
+tests:
+  polyglot-test:
+    main:                doctest-driver.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - polyglot
+    - doctest
+    - doctest-discover-hpack
+    - QuickCheck
