@@ -7,5 +7,7 @@ of languages.
 
 #### Chapter 1: Arrays and Strings
 1. Is Unique
-  ([rust](./rust/src/chapter1/is_unique.rs),
-  [haskell](./haskell/src/Chapter1/IsUnique.hs))
+  ([haskell](./haskell/src/Chapter1/IsUnique.hs),
+  [python](./python/chapter_1/is_unique.py),
+  [ruby](./ruby/chapter_1/is_unique.rb),
+  [rust](./rust/src/chapter1/is_unique.rs))

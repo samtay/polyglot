@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.14.1)
+    rake (13.0.1)
+    yard (0.9.25)
+    yard-doctest (0.1.17)
+      minitest
+      yard
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake
+  yard-doctest
+
+BUNDLED WITH
+   2.1.4
