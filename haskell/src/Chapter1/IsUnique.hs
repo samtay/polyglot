@@ -1,13 +1,16 @@
--- | Example of a library file. It is also used for testing the test suites.
 module Chapter1.IsUnique
   (
     -- * Exported functions
     isUnique
   ) where
 
+import qualified Data.List as List
 import qualified Data.HashMap.Strict as HM
 
 -- | Check if String has all unique characters
+--
+--  This version just sorts first, then iterates through the list, hence
+--  has complexity O(n log n + n) == O(n log n)
 --
 --  >>> isUnique "uniqe ya"
 --  True
@@ -19,7 +22,18 @@ import qualified Data.HashMap.Strict as HM
 --  Not sure why this complains: prop> isUnique xs ==> (nub xs == xs)
 --
 isUnique :: String -> Bool
-isUnique = fst . foldr fn (True, HM.empty)
+isUnique =
+  and
+  . (\s -> zipWith (/=) (drop 1 s) s)
+  . List.sort
+
+-- | Hashmap version
+--
+--  However these persistent data structures don't have the performance of typical
+--  mutable structures found in other languages. There are mutable versions that
+--  operate in IO but this seems like overkill.
+isUnique2 :: String -> Bool
+isUnique2 = fst . foldr fn (True, HM.empty)
   where
     fn c (uniq, hm) =
       if uniq && not (HM.member c hm)
