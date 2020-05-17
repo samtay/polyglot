@@ -5,6 +5,9 @@ of languages.
 
 ### Crack the Coding Interview
 
+In each of the subdirectories, there is an executable `test` that will
+check all the solutions for the given language.
+
 #### Chapter 1: Arrays and Strings
 1. Is Unique
   ([haskell](./haskell/src/Chapter1/IsUnique.hs),

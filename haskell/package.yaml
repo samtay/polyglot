@@ -23,7 +23,6 @@ library:
 tests:
   polyglot-test:
     main:                doctest-driver.hs
-    source-dirs:         test
     ghc-options:
     - -threaded
     - -rtsopts
