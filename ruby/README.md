@@ -15,4 +15,4 @@ Then add the exercise module to the `doctest_helper.rb`:
 ```
 require 'chapter_n/exercise_m'
 ```
-Then run `./test` to validate.
+Then run `bundle exec rake yard:doctest` to validate.

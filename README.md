@@ -3,13 +3,13 @@
 A collection of interview-esque programming challenges implemented in a variety
 of languages.
 
-**TODO** Add a testing script in this directory with `sos` to watch each
-language subdirectory and run the appropriate test for that project.
+Run [`sos`](https://github.com/schell/steeloverseer) in this top level directory
+to watch and automatically test new or edited files.
 
 ### Crack the Coding Interview
 
-In each of the subdirectories, there is an executable `test` that will
-check all the solutions for the given language.
+In each of the subdirectories, there are instructions for how to add and test
+solutions for that particular language.
 
 #### Chapter 1: Arrays and Strings
 1. Is Unique

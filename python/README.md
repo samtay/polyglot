@@ -17,5 +17,5 @@ def solve(input):
     return solution
 ```
 
-and run `./test chapter_n/exercise_m.py` to test it (or no arguments to test
-them all).
+and run `python -m doctest -v chapter_n/exercise_m.py` to test it (or glob
+`**/*.py` to test them all).
