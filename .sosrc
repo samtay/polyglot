@@ -3,7 +3,7 @@
   - cd haskell ; stack test
 - pattern: ^python/.*\.py$
   commands:
-  - cd python ; python -m doctest -v ${1:-**/*.py}
+  - python -m doctest -v \0
 - pattern: ^ruby/.*\.rb$
   commands:
   - cd ruby ; bundle exec rake yard:doctest
