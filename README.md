@@ -20,4 +20,5 @@ solutions for that particular language.
 1. Is Permutation
   ([haskell](./haskell/src/Chapter1/IsPermutation.hs),
   [python](./python/chapter_1/is_permutation.py),
+  [ruby](./ruby/chapter_1/is_permutation.rb),
   [rust](./rust/src/chapter1/is_permutation.rs))
