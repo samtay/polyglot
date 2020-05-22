@@ -1,6 +1,6 @@
-- pattern: ^haskell/.*\.hs$
+- pattern: ^haskell/(.*\.hs)$
   commands:
-  - cd haskell ; stack test
+  - cd haskell ; stack build ; stack exec doctest \1
 - pattern: ^python/.*\.py$
   commands:
   - python -m doctest -v \0
