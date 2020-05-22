@@ -17,8 +17,11 @@ solutions for that particular language.
   [python](./python/chapter_1/is_unique.py),
   [ruby](./ruby/chapter_1/is_unique.rb),
   [rust](./rust/src/chapter1/is_unique.rs))
-1. Check Permutation
+2. Check Permutation
   ([haskell](./haskell/src/Chapter1/CheckPermutation.hs),
   [python](./python/chapter_1/check_permutation.py),
   [ruby](./ruby/chapter_1/check_permutation.rb),
   [rust](./rust/src/chapter1/check_permutation.rs))
+6. String Compression
+  ([haskell](./haskell/src/Chapter1/StringCompression.hs),
+   [python](./python/chapter_1/string_compression.py))

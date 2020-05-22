@@ -1,7 +1,7 @@
 module Chapter1.IsUnique
   (
-    -- * Exported functions
     isUnique
+  , isUnique2
   ) where
 
 import qualified Data.List as List
