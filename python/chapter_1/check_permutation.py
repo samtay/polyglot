@@ -1,4 +1,4 @@
-def is_permutation(s1, s2):
+def check_permutation(s1, s2):
     """Return whether or not s1 is a permutation of s2.
 
     Ignore spaces for fun testing.
@@ -7,15 +7,15 @@ def is_permutation(s1, s2):
         - O(max(n,m)) amortized
         - O(nm) worst case
 
-    >>> is_permutation("Tom Marvolo Riddle", "Immortal Love Rodd")
+    >>> check_permutation("Tom Marvolo Riddle", "Immortal Love Rodd")
     True
-    >>> is_permutation("Tom Marvolo Riddle", "Marmot Dildo Lover")
+    >>> check_permutation("Tom Marvolo Riddle", "Marmot Dildo Lover")
     True
-    >>> is_permutation("Tom Marvolo Riddle", "Mild Doormat Lover")
+    >>> check_permutation("Tom Marvolo Riddle", "Mild Doormat Lover")
     True
-    >>> is_permutation("Sam Chong Tay", "Mach Go Nasty")
+    >>> check_permutation("Sam Chong Tay", "Mach Go Nasty")
     True
-    >>> is_permutation("Tommy", "Tammy")
+    >>> check_permutation("Tommy", "Tammy")
     False
     """
     # not required by problem, so don't count in complexity analysis
@@ -38,15 +38,15 @@ def is_permutation(s1, s2):
     # O(m)
     return all(ct == 0 for ct in chars.values())
 
-def is_permutation2(s1, s2):
+def check_permutation2(s1, s2):
     """More time, less space
 
     Sorts arrays and then compares them:
         - O(max(n log n, m log m))
 
-    >>> is_permutation("Sam Chong Tay", "Mach Go Nasty")
+    >>> check_permutation("Sam Chong Tay", "Mach Go Nasty")
     True
-    >>> is_permutation("Tommy", "Tammy")
+    >>> check_permutation("Tommy", "Tammy")
     False
     """
     # not required by problem, so don't count in complexity analysis

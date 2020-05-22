@@ -10,7 +10,7 @@ use std::collections::hash_map::Entry;
 // O(max(n, m)) amortized total
 //
 // Actually, since we exit in O(1) when n != m, this is just O(n) unambiguously.
-fn is_permutation(s1: &str, s2: &str) -> bool {
+fn check_permutation(s1: &str, s2: &str) -> bool {
 
     // Only keep the relevant chars
     let s1 = anagram_hash(s1);
@@ -53,7 +53,7 @@ mod tests {
 
     #[test]
     fn test_is_unique() {
-        assert_eq!(is_permutation("Tom Marvolo Riddle", "Marmot Dildo Lover"), true);
-        assert_eq!(is_permutation("Tommy", "Tammy"), false);
+        assert_eq!(check_permutation("Tom Marvolo Riddle", "Marmot Dildo Lover"), true);
+        assert_eq!(check_permutation("Tommy", "Tammy"), false);
     }
 }
