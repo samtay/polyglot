@@ -17,3 +17,7 @@ solutions for that particular language.
   [python](./python/chapter_1/is_unique.py),
   [ruby](./ruby/chapter_1/is_unique.rb),
   [rust](./rust/src/chapter1/is_unique.rs))
+1. Is Permutation
+  ([haskell](./haskell/src/Chapter1/IsPermutation.hs),
+  [python](./python/chapter_1/is_permutation.py),
+  [rust](./rust/src/chapter1/is_permutation.rs))
