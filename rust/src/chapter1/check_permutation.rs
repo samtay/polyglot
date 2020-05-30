@@ -52,7 +52,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_is_unique() {
+    fn test_check_permutation() {
         assert_eq!(check_permutation("Tom Marvolo Riddle", "Marmot Dildo Lover"), true);
         assert_eq!(check_permutation("Tommy", "Tammy"), false);
     }
