@@ -22,6 +22,8 @@ solutions for that particular language.
   [python](./python/chapter_1/check_permutation.py),
   [ruby](./ruby/chapter_1/check_permutation.rb),
   [rust](./rust/src/chapter1/check_permutation.rs))
+4. Palindrome Permutation
+  ([rust](./rust/src/chapter1/palindrome_permutation.rs))
 6. String Compression
   ([haskell](./haskell/src/Chapter1/StringCompression.hs),
    [python](./python/chapter_1/string_compression.py))
