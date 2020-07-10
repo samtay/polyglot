@@ -1,4 +1,4 @@
-module Chapter1.StringCompression
+module CTCI.Chapter1.StringCompression
   (
     compress
   ) where

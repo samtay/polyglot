@@ -13,17 +13,17 @@ solutions for that particular language.
 
 #### Chapter 1: Arrays and Strings
 1. Is Unique
-  ([haskell](./haskell/src/Chapter1/IsUnique.hs),
+  ([haskell](./haskell/src/CTCI/Chapter1/IsUnique.hs),
   [python](./python/chapter_1/is_unique.py),
   [ruby](./ruby/chapter_1/is_unique.rb),
-  [rust](./rust/src/chapter1/is_unique.rs))
+  [rust](./rust/src/ctci/chapter1/is_unique.rs))
 2. Check Permutation
-  ([haskell](./haskell/src/Chapter1/CheckPermutation.hs),
+  ([haskell](./haskell/src/CTCI/Chapter1/CheckPermutation.hs),
   [python](./python/chapter_1/check_permutation.py),
   [ruby](./ruby/chapter_1/check_permutation.rb),
-  [rust](./rust/src/chapter1/check_permutation.rs))
+  [rust](./rust/src/ctci/chapter1/check_permutation.rs))
 4. Palindrome Permutation
-  ([rust](./rust/src/chapter1/palindrome_permutation.rs))
+  ([rust](./rust/src/ctci/chapter1/palindrome_permutation.rs))
 6. String Compression
-  ([haskell](./haskell/src/Chapter1/StringCompression.hs),
+  ([haskell](./haskell/src/CTCI/Chapter1/StringCompression.hs),
    [python](./python/chapter_1/string_compression.py))

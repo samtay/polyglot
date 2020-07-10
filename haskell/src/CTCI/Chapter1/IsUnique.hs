@@ -1,4 +1,4 @@
-module Chapter1.IsUnique
+module CTCI.Chapter1.IsUnique
   (
     isUnique
   , isUnique2

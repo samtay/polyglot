@@ -1,9 +1,9 @@
 # haskell
 
-To add more solutions, just add a `src/ChapterN/ExcerciseM.hs` module with
+To add more solutions, just add a `src/CTCI/ChapterN/ExcerciseM.hs` module with
 doctests:
 ```haskell
-module ChapterN.ExerciseM
+module CTCI.ChapterN.ExerciseM
   ( solution
   ) where
 

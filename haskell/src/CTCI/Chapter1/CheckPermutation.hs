@@ -1,4 +1,4 @@
-module Chapter1.CheckPermutation
+module CTCI.Chapter1.CheckPermutation
   (
     checkPermutation
   ) where
