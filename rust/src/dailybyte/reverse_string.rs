@@ -1,4 +1,7 @@
-//! Pretending slice::reverse doesn't exist..
+//! This question is asked by Google. Given a string, reverse all of its characters and return the
+//! resulting string.
+//!
+//! Note: I'm pretending slice::reverse doesn't exist..
 
 use unicode_segmentation::UnicodeSegmentation;
 
