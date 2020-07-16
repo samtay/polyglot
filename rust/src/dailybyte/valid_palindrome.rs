@@ -1,6 +1,7 @@
 //! This question is asked by Facebook. Given a string, return whether or not it forms a palindrome
 //! ignoring case and non-alphabetical characters.
 
+/// O(n) where n is the length of input.
 fn valid_palindrome<S>(s: S) -> bool
 where
     S: Into<String>,
@@ -33,6 +34,7 @@ mod tests {
     #[test]
     fn test_valid_palindrome() {
         assert!(valid_palindrome("level"));
+        assert!(valid_palindrome("levvel"));
         assert!(!valid_palindrome("algorithm"));
         assert!(valid_palindrome("A man, a plan, a canal: Panama."));
     }
