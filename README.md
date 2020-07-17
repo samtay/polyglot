@@ -6,12 +6,12 @@ of languages.
 Run [`sos`](https://github.com/schell/steeloverseer) in this top level directory
 to watch and automatically test new or edited files.
 
-### Crack the Coding Interview
-
 In each of the subdirectories, there are instructions for how to add and test
 solutions for that particular language.
 
-#### Chapter 1: Arrays and Strings
+## Crack the Coding Interview
+
+### Chapter 1: Arrays and Strings
 1. Is Unique
   ([haskell](./haskell/src/CTCI/Chapter1/IsUnique.hs),
   [python](./python/chapter_1/is_unique.py),
@@ -27,3 +27,14 @@ solutions for that particular language.
 6. String Compression
   ([haskell](./haskell/src/CTCI/Chapter1/StringCompression.hs),
    [python](./python/chapter_1/string_compression.py))
+
+## Daily Byte
+1. Reverse String ([rust](./rust/src/dailybyte/reverse_string.rs))
+2. Valid Palindrome ([rust](./rust/src/dailybyte/valid_palindrome.rs))
+3. Vacuum Cleaner Route ([rust](./rust/src/dailybyte/vacuum_route.rs))
+4. Correct Capitalization ([rust](./rust/src/dailybyte/correct_capitalization.rs))
+5. Add Binary ([rust](./rust/src/dailybyte/add_binary.rs))
+6. Longest Common Prefix ([rust](./rust/src/dailybyte/prefix.rs))
+7. Valid Palindrome with Removal ([rust](./rust/src/dailybyte/removal_palindrome.rs))
+8. Two Sum ([rust](./rust/src/dailybyte/two_sum.rs))
+9. Jewels and Stones ([rust](./rust/src/dailybyte/jewels_and_stones.rs))
