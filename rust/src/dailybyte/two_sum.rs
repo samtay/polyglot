@@ -13,6 +13,8 @@ use std::cmp::Ordering;
 /// Once we're sorted, we can iterate across each index, and for each, binary search for the other
 /// half of the pair. This is O(n log n), so as long as we've sorted, we can't do any better than
 /// this.
+///
+/// Another note: Just realized this could be O(n) (with O(n) space) by using a hashmap. Too late.
 fn two_sum(mut ints: Vec<i32>, sum: i32) -> bool {
     ints.sort_unstable();
     for i in 0..ints.len() {
