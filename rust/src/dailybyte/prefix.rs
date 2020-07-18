@@ -21,7 +21,7 @@ where
     I::Item: Eq,
 {
     let mut list = list.into_iter();
-    if let Some(first) = list.nth(0) {
+    if let Some(first) = list.next() {
         list.all(|item| item == first)
     } else {
         true

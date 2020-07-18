@@ -13,7 +13,7 @@ fn palindrome_permutation(s: &str) -> bool {
 
     // Count odd occurences
     let odd_char_count = s.chars().fold(HashMap::new(), |mut hm, c| {
-        if let None = hm.remove(&c) {
+        if hm.remove(&c).is_none() {
             hm.insert(c, 1);
         };
         hm
