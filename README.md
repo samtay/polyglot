@@ -38,3 +38,4 @@ solutions for that particular language.
 7. Valid Palindrome with Removal ([rust](./rust/src/dailybyte/removal_palindrome.rs))
 8. Two Sum ([rust](./rust/src/dailybyte/two_sum.rs))
 9. Jewels and Stones ([rust](./rust/src/dailybyte/jewels_and_stones.rs))
+10. Valid Anagram ([rust](./rust/src/dailybyte/valid_anagram.rs))
