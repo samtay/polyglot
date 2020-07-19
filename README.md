@@ -39,3 +39,4 @@ solutions for that particular language.
 8. Two Sum ([rust](./rust/src/dailybyte/two_sum.rs))
 9. Jewels and Stones ([rust](./rust/src/dailybyte/jewels_and_stones.rs))
 10. Valid Anagram ([rust](./rust/src/dailybyte/valid_anagram.rs))
+11. First Unique Character ([rust](./rust/src/dailybyte/first_unique_char.rs))
