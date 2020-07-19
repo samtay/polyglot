@@ -2,7 +2,7 @@
 //! correctly. A string correctly uses capitalization if all letters are capitalized, no letters are
 //! capitalized, or only the first letter is capitalized.
 
-fn is_correct<S>(s: S) -> bool
+pub fn is_correct<S>(s: S) -> bool
 where
     S: Into<String>,
 {

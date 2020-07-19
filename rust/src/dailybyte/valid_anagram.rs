@@ -12,7 +12,7 @@ use std::collections::HashMap;
 /// matches up.
 /// This solution has time complexity O(s + t) and space complexity O(s') where s' is
 /// the number of distinct characters in s.
-fn valid_anagram(s: &str, t: &str) -> bool {
+pub fn valid_anagram(s: &str, t: &str) -> bool {
     let mut chars: HashMap<char, u16> = s.chars().fold(HashMap::new(), |mut cs, c| {
         cs.entry(c).and_modify(|n| *n += 1).or_insert(1);
         cs

@@ -5,7 +5,7 @@ use std::collections::HashMap;
 
 /// Iterates over jewels, then stones, so time complexity is O(j + s)
 /// Creates a hashmap of jewels, so has space complexity O(j)
-fn num_jewels(stones: &str, jewels: &str) -> u16 {
+pub fn num_jewels(stones: &str, jewels: &str) -> u16 {
     let mut jewels: HashMap<char, u16> = jewels.chars().fold(HashMap::new(), |mut js, c| {
         js.insert(c, 0);
         js

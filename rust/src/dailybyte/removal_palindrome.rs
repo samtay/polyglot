@@ -10,7 +10,7 @@
 ///      iterator. If another pair fails after this, then we can't make a valid palindrome.
 ///      This is still O(n), however in the worst case of failing to make a valid palindrome, we do
 ///      need to allocate new iterators, so space complexity is slightly worse.
-fn can_be_palindrome<S>(s: S) -> bool
+pub fn can_be_palindrome<S>(s: S) -> bool
 where
     S: Into<String>,
 {

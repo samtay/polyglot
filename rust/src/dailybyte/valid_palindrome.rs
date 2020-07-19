@@ -2,7 +2,7 @@
 //! ignoring case and non-alphabetical characters.
 
 /// O(n) where n is the length of input.
-fn valid_palindrome<S>(s: S) -> bool
+pub fn valid_palindrome<S>(s: S) -> bool
 where
     S: Into<String>,
 {

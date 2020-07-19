@@ -9,7 +9,7 @@ use std::collections::HashMap;
 ///
 /// Note: if space was an issue, we'd first sort in O(n log n) then iterate until the first single
 /// grouped char. This would have time O(n log n) and space O(1).
-fn first_unique_char(s: &str) -> i16 {
+pub fn first_unique_char(s: &str) -> i16 {
     let chars: HashMap<char, i16> = s.chars().fold(HashMap::new(), |mut cs, c| {
         cs.entry(c).and_modify(|n| *n += 1).or_insert(1);
         cs

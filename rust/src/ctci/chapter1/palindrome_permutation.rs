@@ -1,12 +1,11 @@
-// Implement an algorithm to determine if a string is a permutation of a palindrome
-
+/// Implement an algorithm to determine if a string is a permutation of a palindrome
 use std::collections::HashMap;
 
-// Just keep odd character counts in a hashmap,
-// then check if the map contains at most 1 character
-
-// O(n)
-fn palindrome_permutation(s: &str) -> bool {
+/// Just keep odd character counts in a hashmap,
+/// then check if the map contains at most 1 character
+///
+/// O(n)
+pub fn palindrome_permutation(s: &str) -> bool {
     // Only keep the relevant chars
     let mut s = s.to_ascii_lowercase();
     s.retain(|c| c.is_ascii() && !c.is_whitespace());

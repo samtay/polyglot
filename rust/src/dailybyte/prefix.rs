@@ -2,7 +2,7 @@
 //! that is shared amongst all strings.  Note: you may assume all strings only contain lowercase
 //! alphabetical characters.
 
-fn longest_prefix<'a>(strings: &[&'a str]) -> &'a str {
+pub fn longest_prefix<'a>(strings: &[&'a str]) -> &'a str {
     let mut length = 0;
     loop {
         let ixs = strings.iter().map(|s| s.chars().nth(length));

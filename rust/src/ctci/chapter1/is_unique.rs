@@ -1,18 +1,18 @@
-// Implement an algorithm to determine if a string has all unique characters.
-// What if you cannot use additional data structures?
-
-// Thought Process:
-// A: sort first, then check adjacent -> O(n log n + n) == O(n log n)
-// B: iterate across string, checking or appending to "seen" list -> O(n)
+//! Implement an algorithm to determine if a string has all unique characters.
+//! What if you cannot use additional data structures?
+//!
+//! Thought Process:
+//! A: sort first, then check adjacent -> O(n log n + n) == O(n log n)
+//! B: iterate across string, checking or appending to "seen" list -> O(n)
 
 use std::collections::HashMap;
 
-fn is_unique(s: &str) -> bool {
-    // Store seen characters in hash table
-    //   O(s) outer loop where s is length of string
-    //     O(1) hash inserts and lookups (amortized)
-    //
-    // O(s) total
+/// Store seen characters in hash table
+///   O(s) outer loop where s is length of string
+///     O(1) hash inserts and lookups (amortized)
+///
+/// O(s) total
+pub fn is_unique(s: &str) -> bool {
     let mut seen = HashMap::new();
     s.chars().fold(true, |uniq, c| {
         if !uniq || seen.contains_key(&c) {

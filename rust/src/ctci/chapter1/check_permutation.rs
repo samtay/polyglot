@@ -1,16 +1,16 @@
-// Implement an algorithm to determine if one string is a permutation of another
+//! Implement an algorithm to determine if one string is a permutation of another
 
 use std::collections::hash_map::Entry;
 use std::collections::HashMap;
 
-// Store characters of string s2 in hash map with counts: O(m)
-// Iterate over s1, decrementing counts in hash map: O(n) amortized
-// Return whether or not all hash map elements 0: O(m) amortized
-//
-// O(max(n, m)) amortized total
-//
-// Actually, since we exit in O(1) when n != m, this is just O(n) unambiguously.
-fn check_permutation(s1: &str, s2: &str) -> bool {
+/// Store characters of string s2 in hash map with counts: O(m)
+/// Iterate over s1, decrementing counts in hash map: O(n) amortized
+/// Return whether or not all hash map elements 0: O(m) amortized
+///
+/// O(max(n, m)) amortized total
+///
+/// Actually, since we exit in O(1) when n != m, this is just O(n) unambiguously.
+pub fn check_permutation(s1: &str, s2: &str) -> bool {
     // Only keep the relevant chars
     let s1 = anagram_hash(s1);
     let s2 = anagram_hash(s2);

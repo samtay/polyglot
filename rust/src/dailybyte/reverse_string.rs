@@ -5,8 +5,8 @@
 
 use unicode_segmentation::UnicodeSegmentation;
 
-// Just creating a new one in O(n) space
-fn reverse(s: impl Into<String>) -> String {
+/// Just creating a new one in O(n) space
+pub fn reverse(s: impl Into<String>) -> String {
     let mut s = s.into();
     let mut new = String::new();
     while let Some(c) = s.pop() {
@@ -15,8 +15,8 @@ fn reverse(s: impl Into<String>) -> String {
     new
 }
 
-// Still O(n) space, creates a new String, but handles arbitrary unicode
-fn reverse_better(s: &str) -> String {
+/// Still O(n) space, creates a new String, but handles arbitrary unicode
+pub fn reverse_better(s: &str) -> String {
     // Only allocate what we need
     let mut output = String::with_capacity(s.len());
     // Make sure we don't split at non-UTF8 boundary

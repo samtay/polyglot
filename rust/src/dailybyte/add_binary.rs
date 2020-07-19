@@ -4,7 +4,7 @@
 
 use std::cmp::max;
 
-fn add<S>(a: S, b: S) -> String
+pub fn add<S>(a: S, b: S) -> String
 where
     S: Into<String>,
 {

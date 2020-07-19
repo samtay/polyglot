@@ -15,7 +15,8 @@ use std::cmp::Ordering;
 /// this.
 ///
 /// Another note: Just realized this could be O(n) (with O(n) space) by using a hashmap. Too late.
-fn two_sum(mut ints: Vec<i32>, sum: i32) -> bool {
+/// Derp: this is the first exercise in the "HashMap" week. :facepalm:
+pub fn two_sum(mut ints: Vec<i32>, sum: i32) -> bool {
     ints.sort_unstable();
     for i in 0..ints.len() {
         let target = sum - ints[i];
