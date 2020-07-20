@@ -11,7 +11,7 @@ solutions for that particular language.
 
 ## Crack the Coding Interview
 
-### Chapter 1: Arrays and Strings
+#### Chapter 1: Arrays and Strings
 1. Is Unique
   ([haskell](./haskell/src/CTCI/Chapter1/IsUnique.hs),
   [python](./python/chapter_1/is_unique.py),
@@ -29,6 +29,8 @@ solutions for that particular language.
    [python](./python/chapter_1/string_compression.py))
 
 ## Daily Byte
+
+#### Strings
 1. Reverse String ([rust](./rust/src/dailybyte/reverse_string.rs))
 2. Valid Palindrome ([rust](./rust/src/dailybyte/valid_palindrome.rs))
 3. Vacuum Cleaner Route ([rust](./rust/src/dailybyte/vacuum_route.rs))
@@ -36,6 +38,8 @@ solutions for that particular language.
 5. Add Binary ([rust](./rust/src/dailybyte/add_binary.rs))
 6. Longest Common Prefix ([rust](./rust/src/dailybyte/prefix.rs))
 7. Valid Palindrome with Removal ([rust](./rust/src/dailybyte/removal_palindrome.rs))
+
+#### Hash Maps
 8. Two Sum ([rust](./rust/src/dailybyte/two_sum.rs))
 9. Jewels and Stones ([rust](./rust/src/dailybyte/jewels_and_stones.rs))
 10. Valid Anagram ([rust](./rust/src/dailybyte/valid_anagram.rs))
