@@ -5,6 +5,7 @@ pub mod jewels_and_stones;
 pub mod prefix;
 pub mod removal_palindrome;
 pub mod reverse_string;
+pub mod spot_diff;
 pub mod two_sum;
 pub mod vacuum_route;
 pub mod valid_anagram;

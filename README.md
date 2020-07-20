@@ -44,3 +44,4 @@ solutions for that particular language.
 9. Jewels and Stones ([rust](./rust/src/dailybyte/jewels_and_stones.rs))
 10. Valid Anagram ([rust](./rust/src/dailybyte/valid_anagram.rs))
 11. First Unique Character ([rust](./rust/src/dailybyte/first_unique_char.rs))
+12. Spot the Difference ([rust](./rust/src/dailybyte/spot_diff.rs))
