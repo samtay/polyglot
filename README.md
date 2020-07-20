@@ -28,6 +28,9 @@ solutions for that particular language.
   ([haskell](./haskell/src/CTCI/Chapter1/StringCompression.hs),
    [python](./python/chapter_1/string_compression.py))
 
+#### Chapter 2: Linked Lists
+1. Remove Dups ([rust](./rust/src/ctci/chapter2/remove_dups.rs))
+
 ## Daily Byte
 
 #### Strings
