@@ -1,6 +1,7 @@
 pub mod add_binary;
 pub mod correct_capitalization;
 pub mod first_unique_char;
+pub mod intersection;
 pub mod jewels_and_stones;
 pub mod prefix;
 pub mod removal_palindrome;
