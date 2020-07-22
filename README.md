@@ -55,3 +55,4 @@ solutions for that particular language.
    [rust](./rust/src/dailybyte/first_unique_char.rs))
 12. Spot the Difference ([rust](./rust/src/dailybyte/spot_diff.rs))
 13. Intersection of Numbers ([rust](./rust/src/dailybyte/intersection.rs))
+14. Uncommon Words ([rust](./rust/src/dailybyte/uncommon_words.rs))
