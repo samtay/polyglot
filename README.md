@@ -38,14 +38,20 @@ solutions for that particular language.
 2. Valid Palindrome ([rust](./rust/src/dailybyte/valid_palindrome.rs))
 3. Vacuum Cleaner Route ([rust](./rust/src/dailybyte/vacuum_route.rs))
 4. Correct Capitalization ([rust](./rust/src/dailybyte/correct_capitalization.rs))
-5. Add Binary ([rust](./rust/src/dailybyte/add_binary.rs))
-6. Longest Common Prefix ([rust](./rust/src/dailybyte/prefix.rs))
+5. Add Binary
+  ([haskell](./haskell/src/DailyByte/AddBinary.hs),
+   [rust](./rust/src/dailybyte/add_binary.rs))
+6. Longest Common Prefix
+  ([haskell](./haskell/src/DailyByte/CommonPrefix.hs),
+   [rust](./rust/src/dailybyte/prefix.rs))
 7. Valid Palindrome with Removal ([rust](./rust/src/dailybyte/removal_palindrome.rs))
 
 #### Hash Maps
 8. Two Sum ([rust](./rust/src/dailybyte/two_sum.rs))
 9. Jewels and Stones ([rust](./rust/src/dailybyte/jewels_and_stones.rs))
 10. Valid Anagram ([rust](./rust/src/dailybyte/valid_anagram.rs))
-11. First Unique Character ([rust](./rust/src/dailybyte/first_unique_char.rs))
+11. First Unique Character
+  ([haskell](./haskell/src/DailyByte/FirstUnique.hs),
+   [rust](./rust/src/dailybyte/first_unique_char.rs))
 12. Spot the Difference ([rust](./rust/src/dailybyte/spot_diff.rs))
 13. Intersection of Numbers ([rust](./rust/src/dailybyte/intersection.rs))
