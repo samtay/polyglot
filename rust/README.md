@@ -18,4 +18,4 @@ To use nightly features:
 
 1. Add them at the [crate level](./src/lib.rs)
 2. Use the nightly toolchain, e.g. `rustup override set nightly`
-3. Run with `nightly` feature flag, e.g. `cargo watch -x 'clippy' -x 'test --lib --features=nightly'`
+3. Run with `nightly` feature flag, e.g. `cargo watch -x 'test --lib --features=nightly' -x 'clippy'`

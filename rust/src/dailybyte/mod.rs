@@ -3,6 +3,8 @@ pub mod correct_capitalization;
 pub mod first_unique_char;
 pub mod intersection;
 pub mod jewels_and_stones;
+#[cfg(feature = "nightly")]
+pub mod merge_linked_lists;
 pub mod prefix;
 pub mod removal_palindrome;
 pub mod reverse_string;

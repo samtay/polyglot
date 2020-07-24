@@ -56,3 +56,8 @@ solutions for that particular language.
 12. Spot the Difference ([rust](./rust/src/dailybyte/spot_diff.rs))
 13. Intersection of Numbers ([rust](./rust/src/dailybyte/intersection.rs))
 14. Uncommon Words ([rust](./rust/src/dailybyte/uncommon_words.rs))
+
+#### Linked Lists
+15. Merge Linked Lists
+  ([haskell](./haskell/src/DailyByte/MergeLists.hs),
+   [rust](./rust/src/dailybyte/merge_linked_lists.rs))
