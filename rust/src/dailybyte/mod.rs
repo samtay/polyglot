@@ -7,6 +7,8 @@ pub mod jewels_and_stones;
 pub mod merge_linked_lists;
 pub mod prefix;
 pub mod removal_palindrome;
+#[cfg(feature = "nightly")]
+pub mod remove_rev;
 pub mod reverse_string;
 pub mod spot_diff;
 pub mod two_sum;
