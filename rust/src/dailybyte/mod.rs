@@ -9,6 +9,8 @@ pub mod prefix;
 pub mod removal_palindrome;
 #[cfg(feature = "nightly")]
 pub mod remove_rev;
+#[cfg(feature = "nightly")]
+pub mod remove_val;
 pub mod reverse_string;
 pub mod spot_diff;
 pub mod two_sum;

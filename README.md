@@ -63,3 +63,6 @@ solutions for that particular language.
    [rust](./rust/src/dailybyte/merge_linked_lists.rs))
 16. Remove Nth to Last Node
   ([rust](./rust/src/dailybyte/remove_rev.rs))
+17. Remove Value
+  ([haskell](./haskell/src/DailyByte/RemoveValue.hs),
+   [rust](./rust/src/dailybyte/remove_val.rs))
