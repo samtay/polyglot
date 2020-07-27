@@ -68,3 +68,5 @@ solutions for that particular language.
    [rust](./rust/src/dailybyte/remove_val.rs))
 18. Find Middle Element
   ([haskell](./haskell/src/DailyByte/FindMiddleElement.hs))
+19. Contains Cycle
+  ([ruby](./ruby/dailybyte/contains_cycle.rb))
