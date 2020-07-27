@@ -66,3 +66,5 @@ solutions for that particular language.
 17. Remove Value
   ([haskell](./haskell/src/DailyByte/RemoveValue.hs),
    [rust](./rust/src/dailybyte/remove_val.rs))
+18. Find Middle Element
+  ([haskell](./haskell/src/DailyByte/FindMiddleElement.hs))
