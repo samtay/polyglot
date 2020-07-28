@@ -70,3 +70,5 @@ solutions for that particular language.
   ([haskell](./haskell/src/DailyByte/FindMiddleElement.hs))
 19. Contains Cycle
   ([ruby](./ruby/dailybyte/contains_cycle.rb))
+20. Return Start of Cycle
+  ([ruby](./ruby/dailybyte/start_cycle.rb))

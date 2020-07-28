@@ -25,6 +25,17 @@ class LinkedList
     @head = prev_node
   end
 
+  def nth_node(n)
+    current_node = @head
+    i = 0
+    while i < n
+      current_node = current_node.next
+      i += 1
+    end
+    return current_node
+  end
+
+  # assumes no cycles
   def add_node(node)
     current_node = @head
     while current_node.next != nil
@@ -34,6 +45,7 @@ class LinkedList
     return self
   end
 
+  # assumes no cycles
   def add_value(value)
     self.add_node(Node.new(value, nil))
     return self
