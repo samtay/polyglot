@@ -72,3 +72,6 @@ solutions for that particular language.
   ([ruby](./ruby/dailybyte/contains_cycle.rb))
 20. Return Start of Cycle
   ([ruby](./ruby/dailybyte/start_cycle.rb))
+21. Reverse List
+  ([haskell](./haskell/src/DailyByte/ReverseList.hs),
+   [ruby](./ruby/dailybyte/reverse_list.rb))

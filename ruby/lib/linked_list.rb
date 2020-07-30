@@ -55,9 +55,9 @@ class LinkedList
     elements = []
     current_node = @head
     while current_node.next != nil
-      elements << current_node
+      elements << current_node.value
       current_node = current_node.next
     end
-    elements << current
+    elements << current_node.value
   end
 end
