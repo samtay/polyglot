@@ -79,3 +79,6 @@ solutions for that particular language.
 #### Stacks & Queues
 22. Validate Characters
   ([rust](./rust/src/dailybyte/validate_chars.rs))
+23. Compare Keystrokes
+  ([haskell](./haskell/src/DailyByte/CompareKeystrokes.hs),
+   [rust](./rust/src/dailybyte/compare_keystrokes.rs))
