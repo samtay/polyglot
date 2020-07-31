@@ -75,3 +75,7 @@ solutions for that particular language.
 21. Reverse List
   ([haskell](./haskell/src/DailyByte/ReverseList.hs),
    [ruby](./ruby/dailybyte/reverse_list.rb))
+
+#### Stacks & Queues
+22. Validate Characters
+  ([rust](./rust/src/dailybyte/validate_chars.rs))

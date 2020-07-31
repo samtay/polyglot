@@ -18,3 +18,4 @@ pub mod uncommon_words;
 pub mod vacuum_route;
 pub mod valid_anagram;
 pub mod valid_palindrome;
+pub mod validate_chars;
