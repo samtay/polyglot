@@ -14,5 +14,5 @@ module DailyByte.RemoveValue
 remove :: Eq a => a -> [a] -> [a]
 remove v (x:xs)
   | x == v      = remove v xs
-  | otherwise   = remove v (x:xs)
+  | otherwise   = x : remove v xs
 remove _ []     = []
