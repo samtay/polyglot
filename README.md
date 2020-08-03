@@ -82,3 +82,5 @@ solutions for that particular language.
 23. Compare Keystrokes
   ([haskell](./haskell/src/DailyByte/CompareKeystrokes.hs),
    [rust](./rust/src/dailybyte/compare_keystrokes.rs))
+24. Remove Adjacent Duplicates
+  ([rust](./rust/src/dailybyte/remove_adj_dupes.rs))

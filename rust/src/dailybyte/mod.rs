@@ -8,6 +8,7 @@ pub mod jewels_and_stones;
 pub mod merge_linked_lists;
 pub mod prefix;
 pub mod removal_palindrome;
+pub mod remove_adj_dupes;
 #[cfg(feature = "nightly")]
 pub mod remove_rev;
 #[cfg(feature = "nightly")]
