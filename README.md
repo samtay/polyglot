@@ -84,3 +84,5 @@ solutions for that particular language.
    [rust](./rust/src/dailybyte/compare_keystrokes.rs))
 24. Remove Adjacent Duplicates
   ([rust](./rust/src/dailybyte/remove_adj_dupes.rs))
+25. Greater Elements
+  ([rust](./rust/src/dailybyte/greater_elements.rs))

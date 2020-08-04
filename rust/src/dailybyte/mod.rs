@@ -2,6 +2,7 @@ pub mod add_binary;
 pub mod compare_keystrokes;
 pub mod correct_capitalization;
 pub mod first_unique_char;
+pub mod greater_elements;
 pub mod intersection;
 pub mod jewels_and_stones;
 #[cfg(feature = "nightly")]
