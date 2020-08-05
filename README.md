@@ -90,3 +90,5 @@ solutions for that particular language.
   ([rust](./rust/src/dailybyte/call_counter.rs))
 27. Moving Average
   ([rust](./rust/src/dailybyte/moving_average.rs))
+28. Queue Stack
+  ([rust](./rust/src/dailybyte/queue_stack.rs))

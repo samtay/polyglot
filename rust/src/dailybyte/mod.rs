@@ -10,6 +10,7 @@ pub mod jewels_and_stones;
 pub mod merge_linked_lists;
 pub mod moving_average;
 pub mod prefix;
+pub mod queue_stack;
 pub mod removal_palindrome;
 pub mod remove_adj_dupes;
 #[cfg(feature = "nightly")]
