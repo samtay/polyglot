@@ -1,4 +1,5 @@
 pub mod add_binary;
+pub mod call_counter;
 pub mod compare_keystrokes;
 pub mod correct_capitalization;
 pub mod first_unique_char;
