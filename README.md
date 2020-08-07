@@ -92,3 +92,7 @@ solutions for that particular language.
   ([rust](./rust/src/dailybyte/moving_average.rs))
 28. Queue Stack
   ([rust](./rust/src/dailybyte/queue_stack.rs))
+
+#### Trees
+29. Find Value
+  ([rust](./rust/src/dailybyte/find_value.rs))
