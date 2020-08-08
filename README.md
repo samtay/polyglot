@@ -96,3 +96,6 @@ solutions for that particular language.
 #### Trees
 29. Find Value
   ([rust](./rust/src/dailybyte/find_value.rs))
+30. Convert Binary Search Tree to Sorted Linked List
+  ([haskell](./haskell/src/DailyByte/ConvertBST.hs),
+  [rust](./rust/src/dailybyte/bst_to_ll.rs))
