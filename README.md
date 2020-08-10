@@ -99,3 +99,9 @@ solutions for that particular language.
 30. Convert Binary Search Tree to Sorted Linked List
   ([haskell](./haskell/src/DailyByte/ConvertBST.hs),
   [rust](./rust/src/dailybyte/bst_to_ll.rs))
+31. Lowest Common Ancestor
+  ([haskell](./haskell/src/DailyByte/LowestCommonAncestor.hs))
+32. Sorted Array to Binary Search Tree
+  ([haskell](./haskell/src/DailyByte/ArrayToBST.hs))
+33. Identical Trees
+  ([haskell](./haskell/src/DailyByte/IdenticalTrees.hs))
