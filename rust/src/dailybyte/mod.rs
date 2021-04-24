@@ -1,3 +1,4 @@
+pub mod acceptable_string;
 pub mod add_binary;
 pub mod bst_to_ll;
 pub mod call_counter;

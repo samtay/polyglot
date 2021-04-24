@@ -105,3 +105,6 @@ solutions for that particular language.
   ([haskell](./haskell/src/DailyByte/ArrayToBST.hs))
 33. Identical Trees
   ([haskell](./haskell/src/DailyByte/IdenticalTrees.hs))
+
+#### Misc
+34. Acceptable String ([rust](./rust/src/dailybyte/acceptable_string.rs))
