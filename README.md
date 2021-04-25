@@ -108,3 +108,4 @@ solutions for that particular language.
 
 #### Misc
 34. Acceptable String ([rust](./rust/src/dailybyte/acceptable_string.rs))
+35. One Fourth ([rust](./rust/src/dailybyte/one_fourth.rs))

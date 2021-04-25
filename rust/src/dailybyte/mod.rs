@@ -12,6 +12,7 @@ pub mod jewels_and_stones;
 #[cfg(feature = "nightly")]
 pub mod merge_linked_lists;
 pub mod moving_average;
+pub mod one_fourth;
 pub mod prefix;
 pub mod queue_stack;
 pub mod removal_palindrome;
