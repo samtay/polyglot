@@ -25,6 +25,7 @@ pub mod reverse_string;
 pub mod spot_diff;
 pub mod two_sum;
 pub mod uncommon_words;
+pub mod up_down;
 pub mod vacuum_route;
 pub mod valid_anagram;
 pub mod valid_palindrome;
