@@ -110,3 +110,4 @@ solutions for that particular language.
 34. Acceptable String ([rust](./rust/src/dailybyte/acceptable_string.rs))
 35. One Fourth ([rust](./rust/src/dailybyte/one_fourth.rs))
 36. Up and Down ([rust](./rust/src/dailybyte/up_down.rs))
+37. Binary Tree Binary Paths ([rust](./rust/src/dailybyte/binary_path.rs))
