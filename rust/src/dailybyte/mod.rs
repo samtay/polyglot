@@ -1,6 +1,7 @@
 pub mod acceptable_string;
 pub mod add_binary;
 pub mod binary_path;
+pub mod bit_by_bit;
 pub mod bst_to_ll;
 pub mod call_counter;
 pub mod compare_keystrokes;
