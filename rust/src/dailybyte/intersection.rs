@@ -16,8 +16,8 @@ pub fn intersection<T: Eq + Hash>(s: Vec<T>, t: Vec<T>) -> Vec<T> {
 
     s.into_iter()
         .filter(move |n| {
-            if set.contains(&n) {
-                set.remove(&n);
+            if set.contains(n) {
+                set.remove(n);
                 return true;
             }
             false

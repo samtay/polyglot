@@ -112,3 +112,12 @@ solutions for that particular language.
 36. Up and Down ([rust](./rust/src/dailybyte/up_down.rs))
 37. Binary Tree Binary Paths ([rust](./rust/src/dailybyte/binary_path.rs))
 38. Bit By Bit ([rust](./rust/src/dailybyte/bit_by_bit.rs))
+
+## Ace the Programming Interview
+
+#### Chapter 1: Linked Lists
+1. Implement a stack via linked list ([c](./c/ace/linked-list.c))
+
+## Misc
+
+1. Rule 110 ([rust](./rust/src/rule110.rs))

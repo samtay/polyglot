@@ -3,6 +3,7 @@
 //! You may assume that each sentence is a sequence of words (without punctuation) correctly
 //! separated using space characters.
 
+use std::collections::hash_map::Entry;
 use std::collections::HashMap;
 use std::collections::HashSet;
 
@@ -23,8 +24,8 @@ pub fn uncommon_words<'a>(a: &'a str, b: &'a str) -> HashSet<&'a str> {
     let mut uncommon = HashSet::new();
     found.extend(a.split_whitespace().map(|w| (w, Found::Once)));
     for w in b.split_whitespace() {
-        if found.contains_key(&w) {
-            found.insert(w, Found::Twice);
+        if let Entry::Occupied(mut e) = found.entry(w) {
+            e.insert(Found::Twice);
         } else {
             uncommon.insert(w);
         }

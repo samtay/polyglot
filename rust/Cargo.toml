@@ -8,6 +8,11 @@ edition = "2018"
 
 [dependencies]
 unicode-segmentation = "1.6"
+rand = "0.8.5"
 
 [features]
 nightly = []
+
+[[bin]]
+name = "rule110"
+path = "src/rule110.rs"
