@@ -113,10 +113,8 @@ solutions for that particular language.
 37. Binary Tree Binary Paths ([rust](./rust/src/dailybyte/binary_path.rs))
 38. Bit By Bit ([rust](./rust/src/dailybyte/bit_by_bit.rs))
 
-## Ace the Programming Interview
-
-#### Chapter 1: Linked Lists
-1. Implement a stack via linked list ([c](./c/ace/linked-list.c))
+## LeetCode
+1. Triangle ([rust](./rust/src/leet/triangle.rs))
 
 ## Misc
 
