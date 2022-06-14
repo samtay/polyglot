@@ -116,6 +116,7 @@ solutions for that particular language.
 ## LeetCode
 1. Triangle ([rust](./rust/src/leet/triangle.rs))
 1. Binary Search ([rust](./rust/src/leet/binary_search.rs))
+1. First Bad Version ([rust](./rust/src/leet/first_bad_version.rs))
 
 ## Misc
 
