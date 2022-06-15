@@ -9,6 +9,15 @@ to watch and automatically test new or edited files.
 In each of the subdirectories, there are instructions for how to add and test
 solutions for that particular language.
 
+
+## LeetCode
+1. Triangle ([rust](./rust/src/leet/triangle.rs))
+1. Binary Search ([rust](./rust/src/leet/binary_search.rs))
+1. First Bad Version ([rust](./rust/src/leet/first_bad_version.rs))
+1. Search Input Position ([rust](./rust/src/leet/search_input_position.rs))
+1. Squares of a Sorted Array ([rust](./rust/src/leet/squares_sorted_array.rs))
+1. Rotate Array ([rust](./rust/src/leet/rotate_array.rs))
+
 ## Crack the Coding Interview
 
 #### Chapter 1: Arrays and Strings
@@ -112,11 +121,6 @@ solutions for that particular language.
 36. Up and Down ([rust](./rust/src/dailybyte/up_down.rs))
 37. Binary Tree Binary Paths ([rust](./rust/src/dailybyte/binary_path.rs))
 38. Bit By Bit ([rust](./rust/src/dailybyte/bit_by_bit.rs))
-
-## LeetCode
-1. Triangle ([rust](./rust/src/leet/triangle.rs))
-1. Binary Search ([rust](./rust/src/leet/binary_search.rs))
-1. First Bad Version ([rust](./rust/src/leet/first_bad_version.rs))
 
 ## Misc
 
