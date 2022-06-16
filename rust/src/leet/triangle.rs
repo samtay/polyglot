@@ -45,7 +45,7 @@ impl Solution {
         let mut candidates: Vec<Candidate> = Vec::with_capacity(total_candidates);
         let mut triangle_iter = triangle.iter();
         // Guaranteed 1 <= triangle.length
-        let top_vertex = triangle_iter.next().unwrap().into_iter().next().unwrap();
+        let top_vertex = triangle_iter.next().unwrap().iter().next().unwrap();
         candidates.push(Candidate {
             running_total: *top_vertex,
             col_index: 0,

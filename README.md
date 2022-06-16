@@ -17,6 +17,8 @@ solutions for that particular language.
 1. Search Input Position ([rust](./rust/src/leet/search_input_position.rs))
 1. Squares of a Sorted Array ([rust](./rust/src/leet/squares_sorted_array.rs))
 1. Rotate Array ([rust](./rust/src/leet/rotate_array.rs))
+1. Move Zeroes ([rust](./rust/src/leet/move_zeroes.rs))
+1. Two Sum II ([rust](./rust/src/leet/two_sum_ii.rs))
 
 ## Crack the Coding Interview
 
