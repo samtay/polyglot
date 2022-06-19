@@ -24,6 +24,13 @@ solutions for that particular language.
 1. Middle Linked List ([rust](./rust/src/leet/middle_linked_list.rs))
 1. Delete Middle Linked List
    ([rust](./rust/src/leet/delete_middle_linked_list.rs))
+1. Remove Nth Node From End of List
+   ([rust](./rust/src/leet/delete_nth_linked_list.rs))
+1. Longest Substring Without Repeating Characters
+   ([rust](./rust/src/leet/substring_without_repeat.rs))
+1. Permutation in String
+   ([rust](./rust/src/leet/permutation_in_string.rs))
+
 
 ## Crack the Coding Interview
 

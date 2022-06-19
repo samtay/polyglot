@@ -1,12 +1,15 @@
 pub mod binary_search;
 pub mod delete_middle_linked_list;
+pub mod delete_nth_linked_list;
 pub mod first_bad_version;
 pub mod middle_linked_list;
 pub mod move_zeroes;
+pub mod permutation_in_string;
 pub mod reverse_string;
 pub mod reverse_words;
 pub mod rotate_array;
 pub mod search_input_position;
 pub mod squares_sorted_array;
+pub mod substring_without_repeat;
 pub mod triangle;
 pub mod two_sum_ii;
