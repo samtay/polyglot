@@ -21,6 +21,9 @@ solutions for that particular language.
 1. Two Sum II ([rust](./rust/src/leet/two_sum_ii.rs))
 1. Reverse String ([rust](./rust/src/leet/reverse_string.rs))
 1. Reverse Words ([rust](./rust/src/leet/reverse_words.rs))
+1. Middle Linked List ([rust](./rust/src/leet/middle_linked_list.rs))
+1. Delete Middle Linked List
+   ([rust](./rust/src/leet/delete_middle_linked_list.rs))
 
 ## Crack the Coding Interview
 

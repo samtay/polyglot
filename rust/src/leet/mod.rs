@@ -1,5 +1,7 @@
 pub mod binary_search;
+pub mod delete_middle_linked_list;
 pub mod first_bad_version;
+pub mod middle_linked_list;
 pub mod move_zeroes;
 pub mod reverse_string;
 pub mod reverse_words;
