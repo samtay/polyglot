@@ -19,6 +19,8 @@ solutions for that particular language.
 1. Rotate Array ([rust](./rust/src/leet/rotate_array.rs))
 1. Move Zeroes ([rust](./rust/src/leet/move_zeroes.rs))
 1. Two Sum II ([rust](./rust/src/leet/two_sum_ii.rs))
+1. Reverse String ([rust](./rust/src/leet/reverse_string.rs))
+1. Reverse Words ([rust](./rust/src/leet/reverse_words.rs))
 
 ## Crack the Coding Interview
 

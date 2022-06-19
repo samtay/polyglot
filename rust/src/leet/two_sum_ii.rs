@@ -24,14 +24,15 @@ impl Solution {
     ///
     /// Let's go with idea 2;
     pub fn two_sum(numbers: Vec<i32>, target: i32) -> Vec<i32> {
-        for ix1 in 0..numbers.len() {
-            let t = target - numbers[ix1];
-            // ix1 + 1 safe because solution (ix1, ix2) is guaranteed, and ix1 must exist before last element
-            if let Ok(ix2) = numbers[ix1 + 1..].binary_search(&t) {
-                return vec![(ix1 + 1) as i32, (ix1 + ix2 + 2) as i32];
+        let mut i = 0;
+        let mut j = numbers.len() - 1;
+        loop {
+            match target.cmp(&(numbers[i] + numbers[j])) {
+                std::cmp::Ordering::Less => j -= 1,
+                std::cmp::Ordering::Equal => return vec![i as i32 + 1, j as i32 + 1],
+                std::cmp::Ordering::Greater => i += 1,
             }
         }
-        panic!("we were guaranteed a solution!")
     }
 }
 
