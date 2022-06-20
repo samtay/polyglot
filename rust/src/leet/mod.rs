@@ -2,6 +2,7 @@ pub mod binary_search;
 pub mod delete_middle_linked_list;
 pub mod delete_nth_linked_list;
 pub mod first_bad_version;
+pub mod flood_fill;
 pub mod middle_linked_list;
 pub mod move_zeroes;
 pub mod permutation_in_string;

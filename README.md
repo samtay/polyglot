@@ -30,6 +30,8 @@ solutions for that particular language.
    ([rust](./rust/src/leet/substring_without_repeat.rs))
 1. Permutation in String
    ([rust](./rust/src/leet/permutation_in_string.rs))
+1. Flood Fill
+   ([rust](./rust/src/leet/flood_fill.rs))
 
 
 ## Crack the Coding Interview
