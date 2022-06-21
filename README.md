@@ -32,6 +32,12 @@ solutions for that particular language.
    ([rust](./rust/src/leet/permutation_in_string.rs))
 1. Flood Fill
    ([rust](./rust/src/leet/flood_fill.rs))
+1. Longest Valid Parentheses
+   ([rust](./rust/src/leet/longest_valid_parens.rs))
+1. Longest Palindrome Substring
+   ([rust](./rust/src/leet/longest_palindrome_substring.rs))
+1. Max Area of Island
+   ([rust](./rust/src/leet/max_area_island.rs))
 
 
 ## Crack the Coding Interview
