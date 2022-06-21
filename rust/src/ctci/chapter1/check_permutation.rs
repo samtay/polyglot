@@ -50,10 +50,10 @@ mod tests {
 
     #[test]
     fn test_check_permutation() {
-        assert_eq!(
-            check_permutation("Tom Marvolo Riddle", "Marmot Dildo Lover"),
-            true
-        );
-        assert_eq!(check_permutation("Tommy", "Tammy"), false);
+        assert!(check_permutation(
+            "Tom Marvolo Riddle",
+            "Marmot Dildo Lover"
+        ),);
+        assert!(!check_permutation("Tommy", "Tammy"));
     }
 }

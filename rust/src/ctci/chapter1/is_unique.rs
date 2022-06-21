@@ -29,7 +29,7 @@ mod tests {
 
     #[test]
     fn test_is_unique() {
-        assert_eq!(is_unique("i am not unique"), false);
-        assert_eq!(is_unique("me tho"), true);
+        assert!(!is_unique("i am not unique"));
+        assert!(is_unique("me tho"));
     }
 }

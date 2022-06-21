@@ -69,7 +69,7 @@ mod tests {
         let mut node1 = ListNode::new(1);
         node1.next = Some(Box::new(node2));
         assert_eq!(
-            Solution::middle_node(Some(Box::new(node1.clone()))),
+            Solution::middle_node(Some(Box::new(node1))),
             Some(Box::new(node3))
         );
 
@@ -78,11 +78,11 @@ mod tests {
         let mut node3 = ListNode::new(3);
         node3.next = Some(Box::new(node4.clone()));
         let mut node2 = ListNode::new(2);
-        node2.next = Some(Box::new(node3.clone()));
+        node2.next = Some(Box::new(node3));
         let mut node1 = ListNode::new(1);
         node1.next = Some(Box::new(node2));
         assert_eq!(
-            Solution::middle_node(Some(Box::new(node1.clone()))),
+            Solution::middle_node(Some(Box::new(node1))),
             Some(Box::new(node4))
         );
     }

@@ -28,8 +28,8 @@ mod tests {
 
     #[test]
     fn test_palindrome_permutation() {
-        assert_eq!(palindrome_permutation("Tact Coa"), true);
-        assert_eq!(palindrome_permutation("carecar"), true);
-        assert_eq!(palindrome_permutation("rarr"), false);
+        assert!(palindrome_permutation("Tact Coa"));
+        assert!(palindrome_permutation("carecar"));
+        assert!(!palindrome_permutation("rarr"));
     }
 }

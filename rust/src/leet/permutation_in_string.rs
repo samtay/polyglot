@@ -4,7 +4,7 @@
 //! In other words, return true if one of s1's permutations is the substring of
 //! s2.
 
-use std::collections::{hash_map::Entry, HashMap};
+use std::collections::HashMap;
 
 pub struct Solution;
 impl Solution {
