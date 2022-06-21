@@ -12,11 +12,6 @@ impl Solution {
     ///
     /// Although, this window does just hop over unknown chars and re-start the calculation;
     /// Maybe it would be faster to split s2 into pieces based on unknown chars?
-    ///
-    /// This does some pretty liberal cloning of the hashmap for s1. Instead of
-    /// waiting for the hashmap of s2 to be empty, we could just modify it until
-    /// it is equal to s1; this would incur hashmap equality checks at each loop
-    /// iteration, but better than the space complexity of this one.
     pub fn check_inclusion(s1: String, s2: String) -> bool {
         // Some base edge cases
         if s1.is_empty() {
@@ -31,7 +26,7 @@ impl Solution {
             hm
         });
 
-        let mut hm = s1_hm.clone();
+        let mut hm = HashMap::new();
         let mut i = 0;
         let mut j = 0;
 
@@ -40,36 +35,39 @@ impl Solution {
 
         while j < n {
             let c = cs[j] as char;
-            match hm.entry(c) {
-                // Unsuccessful window
-                Entry::Vacant(_) => {
-                    if s1_hm.contains_key(&c) {
-                        // If character is potentially useful, shift the window
-                        while !hm.contains_key(&c) {
-                            hm.entry(cs[i] as char)
-                                .and_modify(|ct| *ct += 1)
-                                .or_insert(1);
-                            i += 1;
+            // Compare the two char counts hashmap
+            match (s1_hm.get(&c).unwrap_or(&0), hm.get(&c).unwrap_or(&0)) {
+                // Continue to widen this window
+                (ct1, ct2) if ct1 > ct2 => {
+                    hm.entry(c).and_modify(|ct| *ct += 1).or_insert(1);
+                }
+
+                // Unsuccessful window, with a useless char
+                // In this case move the whole window over and start over
+                (0, _) => {
+                    i = j + 1;
+                    hm = HashMap::new();
+                }
+
+                // Unsuccessful window, but still potentially salvagable
+                // Shift i over until we can accept the new c.
+                _ => {
+                    while cs[i] as char != c {
+                        let ct = hm
+                            .entry(cs[i] as char)
+                            .and_modify(|ct| *ct -= 1)
+                            .or_insert(0);
+                        if *ct == 0 {
+                            hm.remove(&(cs[i] as char));
                         }
-                        hm.remove(&c);
-                    } else {
-                        // When character cannot be used, just move the window and completely start over
-                        i = j + 1;
-                        hm = s1_hm.clone();
+                        i += 1;
                     }
+                    i += 1;
                 }
-                // Continue this window
-                Entry::Occupied(mut e) => {
-                    let ct = e.get_mut(); // or into_mut
-                    *ct -= 1;
-                    if *ct == 0 {
-                        e.remove();
-                    }
-                    // Window successfully cleared the char counts!
-                    if hm.is_empty() {
-                        return true;
-                    }
-                }
+            }
+            // Window successfully cleared the char counts!
+            if hm == s1_hm {
+                return true;
             }
             j += 1;
         }
@@ -82,7 +80,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_substr() {
+    fn test_inclusion() {
         assert!(Solution::check_inclusion(
             "ab".to_string(),
             "eidbaooo".to_string()
@@ -113,7 +111,7 @@ mod tests {
     }
 
     #[test]
-    fn test_substr_2() {
+    fn test_inclusion_2() {
         assert!(Solution::check_inclusion(
             "abc".to_string(),
             "eidbaacboo".to_string()
