@@ -38,6 +38,8 @@ solutions for that particular language.
    ([rust](./rust/src/leet/longest_palindrome_substring.rs))
 1. Max Area of Island
    ([rust](./rust/src/leet/max_area_island.rs))
+1. Merge two binary trees
+   ([rust](./rust/src/leet/merge_binary_trees.rs))
 
 
 ## Crack the Coding Interview

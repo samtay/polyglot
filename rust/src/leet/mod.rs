@@ -6,6 +6,7 @@ pub mod flood_fill;
 pub mod longest_palindrome_substring;
 pub mod longest_valid_parens;
 pub mod max_area_island;
+pub mod merge_binary_trees;
 pub mod middle_linked_list;
 pub mod move_zeroes;
 pub mod permutation_in_string;
