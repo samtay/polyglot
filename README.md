@@ -40,6 +40,10 @@ solutions for that particular language.
    ([rust](./rust/src/leet/max_area_island.rs))
 1. Merge two binary trees
    ([rust](./rust/src/leet/merge_binary_trees.rs))
+1. Climbing Stairs
+   ([rust](./rust/src/leet/climbing_stairs.rs))
+1. Permutations
+   ([rust](./rust/src/leet/permutations.rs))
 
 
 ## Crack the Coding Interview
